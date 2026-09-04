@@ -71,8 +71,12 @@ def validate(data: Any, max_doc_age_days: int) -> tuple[list[str], list[str]]:
         try:
             checked_date = date.fromisoformat(checked_at)
             age = (date.today() - checked_date).days
-            if age < 0:
+            if age < -1:
                 errors.append("docs.checked_at cannot be in the future")
+            elif age == -1:
+                warnings.append(
+                    "docs.checked_at is one calendar day ahead; verify the documentation timezone"
+                )
             elif age > max_doc_age_days:
                 warnings.append(
                     f"official documentation was checked {age} days ago; verify it again"

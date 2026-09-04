@@ -89,6 +89,13 @@ class ValidateSandboxPlanTests(unittest.TestCase):
         self.assertEqual(errors, [])
         self.assertTrue(any("8 days ago" in warning for warning in warnings))
 
+    def test_one_day_ahead_allows_timezone_boundary(self) -> None:
+        plan = valid_plan()
+        plan["docs"]["checked_at"] = (date.today() + timedelta(days=1)).isoformat()
+        errors, warnings = MODULE.validate(plan, 7)
+        self.assertEqual(errors, [])
+        self.assertTrue(any("timezone" in warning for warning in warnings))
+
     def test_cleanup_verification_cannot_be_disabled(self) -> None:
         plan = deepcopy(valid_plan())
         plan["lifecycle"]["verify_absent_after_destroy"] = False

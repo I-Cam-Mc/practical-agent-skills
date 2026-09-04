@@ -78,8 +78,12 @@ def validate_evidence(
         try:
             accessed = date.fromisoformat(accessed_at)
             age = (date.today() - accessed).days
-            if age < 0:
+            if age < -1:
                 errors.append(f"{prefix}.accessed_at cannot be in the future")
+            elif age == -1:
+                warnings.append(
+                    f"{prefix}.accessed_at is one calendar day ahead; verify the source timezone"
+                )
             elif age > max_source_age_days:
                 warnings.append(
                     f"{prefix} was accessed {age} days ago; refresh time-sensitive claims"

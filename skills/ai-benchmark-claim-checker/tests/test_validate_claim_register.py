@@ -106,6 +106,15 @@ class ValidateClaimRegisterTests(unittest.TestCase):
         self.assertEqual(errors, [])
         self.assertTrue(any("31 days ago" in warning for warning in warnings))
 
+    def test_one_day_ahead_allows_timezone_boundary(self) -> None:
+        register = valid_register()
+        register["claims"][0]["evidence"][0]["accessed_at"] = (
+            date.today() + timedelta(days=1)
+        ).isoformat()
+        errors, warnings = MODULE.validate(register, 30)
+        self.assertEqual(errors, [])
+        self.assertTrue(any("timezone" in warning for warning in warnings))
+
     def test_malformed_source_url_fails(self) -> None:
         register = valid_register()
         register["claims"][0]["evidence"][0]["url"] = "search result"
