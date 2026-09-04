@@ -1,0 +1,4 @@
+interface:
+  display_name: "Voice Profile Builder"
+  short_description: "Turn authorised samples into a writing guide"
+  default_prompt: "Use $voice-profile-builder to create a private, editable voice guide from these authorised writing samples."

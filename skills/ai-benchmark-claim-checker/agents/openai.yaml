@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Benchmark Claim Checker"
+  short_description: "Verify what an AI benchmark result really means"
+  default_prompt: "Use $ai-benchmark-claim-checker to verify and explain this benchmark claim."

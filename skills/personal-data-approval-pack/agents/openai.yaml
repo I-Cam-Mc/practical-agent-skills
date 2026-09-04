@@ -1,0 +1,4 @@
+interface:
+  display_name: "Personal Data Approval Pack"
+  short_description: "Stage private data changes for safe approval"
+  default_prompt: "Use $personal-data-approval-pack to prepare a read-only review and exact approval pack before changing my personal data."

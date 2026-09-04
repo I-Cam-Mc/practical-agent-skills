@@ -1,0 +1,5 @@
+session_id,position,source_track_id,title,artist,duration_seconds
+set-001,1,track-a,Northern Lights,Example Artist,242
+set-001,2,track-b,Afterimage,Second Example,258
+set-002,1,track-a,Northern Lights,Example Artist,242
+set-002,2,track-b,Afterimage,Second Example,258

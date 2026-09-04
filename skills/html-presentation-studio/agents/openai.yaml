@@ -1,0 +1,4 @@
+interface:
+  display_name: "HTML Presentation Studio"
+  short_description: "Build portable, dependency-free browser slide decks"
+  default_prompt: "Use $html-presentation-studio to turn my source material into an accessible, self-contained HTML deck and validate it in a real browser."

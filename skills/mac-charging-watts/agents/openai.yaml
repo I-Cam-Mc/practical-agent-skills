@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mac Charging Watts"
+  short_description: "Measure live Mac charging power correctly"
+  default_prompt: "Use $mac-charging-watts to measure and explain this Mac's current charging power."

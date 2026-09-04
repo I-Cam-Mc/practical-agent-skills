@@ -1,0 +1,4 @@
+interface:
+  display_name: "Railway Burst Sandbox"
+  short_description: "Plan temporary Railway compute with safe cleanup"
+  default_prompt: "Use $railway-burst-sandbox to plan this short-lived workload without creating resources yet."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Assistant Readiness Audit"
+  short_description: "Verify an assistant works from end to end"
+  default_prompt: "Use $assistant-readiness-audit to check which parts of my assistant are configured versus actually verified."

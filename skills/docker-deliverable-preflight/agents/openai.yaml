@@ -1,0 +1,4 @@
+interface:
+  display_name: "Docker Deliverable Preflight"
+  short_description: "Verify a container hand-off from clean extraction"
+  default_prompt: "Use $docker-deliverable-preflight to verify this container package before I hand it over."

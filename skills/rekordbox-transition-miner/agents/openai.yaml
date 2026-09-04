@@ -1,0 +1,4 @@
+interface:
+  display_name: "Rekordbox Transition Miner"
+  short_description: "Turn DJ history into reviewable mix recipes"
+  default_prompt: "Use $rekordbox-transition-miner to find transition candidates in my DJ history without changing the source library."

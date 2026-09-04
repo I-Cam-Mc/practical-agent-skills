@@ -1,0 +1,37 @@
+{
+  "title": "Decision Brief",
+  "subtitle": "Evidence, trade-offs and the next action",
+  "author": "Presentation team",
+  "slides": [
+    {
+      "type": "hero",
+      "eyebrow": "Working session",
+      "title": "Make the decision visible.",
+      "body": "State the answer, show the evidence and name the next owner."
+    },
+    {
+      "type": "two-column",
+      "eyebrow": "What changes",
+      "title": "Move from scattered updates to one review loop.",
+      "left": {
+        "heading": "Current",
+        "items": ["Evidence sits in several places", "Risks surface late"]
+      },
+      "right": {
+        "heading": "Proposed",
+        "items": ["One evidence pack", "Named owner and review date"]
+      }
+    },
+    {
+      "type": "metrics",
+      "eyebrow": "Decision signals",
+      "title": "Use a few measures that change the call.",
+      "metrics": [
+        {"value": "3", "label": "open questions"},
+        {"value": "1", "label": "named owner"},
+        {"value": "Fri", "label": "next review"}
+      ],
+      "source": "Illustrative content only"
+    }
+  ]
+}

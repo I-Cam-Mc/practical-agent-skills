@@ -1,0 +1,4 @@
+interface:
+  display_name: "Decision Research"
+  short_description: "Build auditable evidence-led decision briefs"
+  default_prompt: "Use $decision-research to turn this question into an auditable recommendation with explicit evidence and uncertainty."

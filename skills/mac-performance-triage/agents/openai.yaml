@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mac Performance Triage"
+  short_description: "Diagnose Mac CPU and memory pressure safely"
+  default_prompt: "Use $mac-performance-triage to assess why this Mac feels slow without changing anything."

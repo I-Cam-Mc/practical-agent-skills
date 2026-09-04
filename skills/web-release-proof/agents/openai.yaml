@@ -1,0 +1,4 @@
+interface:
+  display_name: "Web Release Proof"
+  short_description: "Prove a website change reached production"
+  default_prompt: "Use $web-release-proof to implement this scoped website change and verify the live result."

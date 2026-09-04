@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Local release engineering, not public package content
+audits/
+existing-repos/
+patches/
+upstream/
+RELEASE_PLAN.md
+
+# Attributed adaptations are being handled as upstream contributions
+skills/video-download/
+skills/video-transcribe/
