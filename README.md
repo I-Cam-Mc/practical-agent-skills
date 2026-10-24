@@ -15,6 +15,7 @@ Each folder under `skills/` is independently installable. The skills favour read
 | [`html-presentation-studio`](skills/html-presentation-studio/) | Build accessible, dependency-free, self-contained HTML slide decks |
 | [`mac-charging-watts`](skills/mac-charging-watts/) | Measure adapter, system-input and battery charging power without confusing the three |
 | [`mac-performance-triage`](skills/mac-performance-triage/) | Diagnose CPU, memory pressure, swap and load using bounded read-only observations |
+| [`mac-update-steward`](skills/mac-update-steward/) | Carry out authorised Mac updates with protected workloads, exact-version plans and verified outcomes |
 | [`personal-data-approval-pack`](skills/personal-data-approval-pack/) | Stage exact, backed-up and read-back-verifiable personal-data changes for approval |
 | [`railway-burst-sandbox`](skills/railway-burst-sandbox/) | Plan and operate short-lived Railway compute with cost and cleanup controls |
 | [`rekordbox-transition-miner`](skills/rekordbox-transition-miner/) | Turn DJ history into review candidates and human-confirmed transition recipes |

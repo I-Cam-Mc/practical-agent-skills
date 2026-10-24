@@ -1,0 +1,11 @@
+{
+  "devices": [
+    "workstation"
+  ],
+  "install_authorized": false,
+  "protected_ids": [
+    "example.agent",
+    "example.vpn"
+  ],
+  "approvals": []
+}
