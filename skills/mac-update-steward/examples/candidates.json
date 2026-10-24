@@ -1,0 +1,22 @@
+[
+  {
+    "device": "workstation",
+    "id": "example.editor",
+    "name": "Example Editor",
+    "before": "2.4.0",
+    "target": "2.4.1",
+    "change": "patch",
+    "owner": "vendor",
+    "source_url": "https://example.com/releases/2.4.1",
+    "channel": "stable",
+    "present": true,
+    "source_verified": null,
+    "compatible": null,
+    "eligible": null,
+    "idle": null,
+    "rollback_ready": null,
+    "protected": false,
+    "pinned": false,
+    "activation_required": true
+  }
+]

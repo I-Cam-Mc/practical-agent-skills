@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mac Update Steward"
+  short_description: "Update Macs with compatibility and verification checks"
+  default_prompt: "Use $mac-update-steward to check my Macs and carry out authorised compatible updates while preserving active work."
